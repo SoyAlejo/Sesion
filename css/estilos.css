@@ -25,12 +25,14 @@ body {
 	);
 }
 .form-title {
+	color: black;
 	text-align: center;
 	margin-top: 20px;
+	font-weight: normal;
 }
 .form {
-	width: 90%;
-	max-width: 500px;
+	width: 40%;
+	max-width: 450px;
 	margin: auto;
 	margin-top: 100px;
 	margin-bottom: 100px;
@@ -61,10 +63,11 @@ body {
 
 .imagen {
 	text-align: center;
-	margin: -30px;
+	margin-top: -10%;
+	position: relative;
 }
 .imagen-title {
-	width: 30%;
+	width: 35%;
 	margin: auto;
 }
 /* ---------Boton-------- */
@@ -94,6 +97,7 @@ body {
 	text-align: center;
 	font-size: 15px;
 	margin-bottom: 12px;
+	font-weight: normal;
 }
 .boton-img {
 	width: 100%;
@@ -106,7 +110,11 @@ body {
 }
 
 @media (max-width: 800px) {
-	section {
+	.form {
 		width: 90%;
+	}
+
+	.imagen {
+		margin-top: -12%;
 	}
 }
