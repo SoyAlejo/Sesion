@@ -52,7 +52,7 @@ body {
 	position: relative;
 	width: 100%;
 	border: none;
-	border-bottom: solid 1px;
+	border-bottom: solid 1px #590082;
 }
 .form-ingresar__input:focus {
 	outline-color: #590082;
